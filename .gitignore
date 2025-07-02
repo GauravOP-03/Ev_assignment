@@ -8,7 +8,7 @@ venv/
 env/
 .venv/
 .evAssignment/
-evAssignment/  # your custom venv folder if used
+evAssignment/  
 
 # VS Code, PyCharm, and IDE-specific
 .vscode/
