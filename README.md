@@ -77,14 +77,14 @@ A robust, role-based file-sharing system built with **FastAPI** and **MongoDB**,
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/secure-file-sharing.git
-   cd secure-file-sharing
+   git clone https://github.com/GauravOP-03/Ev_assignment.git
+   cd Ev_assignment
    ```
 
 2. **Create a Virtual Environment**
 
    ```bash
-   python -m venv venv
+   python -m venv evAssignment
    source venv/bin/activate  # Windows: venv\Scripts\activate
    ```
 
@@ -101,6 +101,7 @@ A robust, role-based file-sharing system built with **FastAPI** and **MongoDB**,
    ```
    MONGO_URL=mongodb+srv://<user>:<pass>@cluster.mongodb.net/db
    AUTH_SECRET=super_secure_key
+   URL_SECRET=super_secure_key
    SMTP_USER=your_email@gmail.com
    SMTP_PASS=your_app_password  # App password for Gmail
    ```
@@ -172,11 +173,7 @@ Make sure MongoDB is running and your `.env` file is configured before running t
 
 ## 🌐 Live Demo
 
-🔗 [Click here to view the live project](https://your-live-link.com)
-
-## 🛡️ Admin Panel
-
-🔗 [Go to Admin Panel](https://your-live-link.com/admin)
+🔗 [Click here to view the live project](https://ev-assignment.onrender.com)
 
 ---
 
@@ -185,7 +182,7 @@ Make sure MongoDB is running and your `.env` file is configured before running t
 > **Username:** `opsuser@example.com`  
 > **Password:** `yourpassword123`
 
-> ⚠️ **Note:** These credentials are for demo purposes only. Please do not use them in production.
+> ⚠️ **Note:** These credentials are for demo purposes only.
 
 ---
 
