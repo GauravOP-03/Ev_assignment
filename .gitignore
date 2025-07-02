@@ -20,7 +20,7 @@ evAssignment/  # your custom venv folder if used
 .DS_Store
 Thumbs.db
 
-files
+files/
 
 # Logs and local databases
 *.log
