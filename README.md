@@ -64,8 +64,10 @@ A robust, role-based file-sharing system built with **FastAPI** and **MongoDB**,
 │   └── email.py
 ├── db/
 │   └── mongo.py
-├── files/         # Uploaded files
-├── test/          # Test cases
+├── files/          # Uploaded files
+├── test/           # Test cases
+├── postman/
+│   └── secure-file-sharing.postman_collection.json
 ├── requirements.txt
 └── README.md
 ```

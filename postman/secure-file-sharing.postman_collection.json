@@ -1,0 +1,94 @@
+{
+  "info": {
+    "_postman_id": "12345678-abcd-1234-efgh-56789abcdef0",
+    "name": "Secure File Sharing",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Client Signup",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"client@example.com\",\n  \"password\": \"client123\"\n}",
+          "options": { "raw": { "language": "json" } }
+        },
+        "url": {
+          "raw": "http://localhost:8000/client/signup",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["client", "signup"]
+        }
+      }
+    },
+    {
+      "name": "Client Login",
+      "request": {
+        "method": "POST",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"client@example.com\",\n  \"password\": \"client123\"\n}",
+          "options": { "raw": { "language": "json" } }
+        },
+        "url": {
+          "raw": "http://localhost:8000/auth/login",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["auth", "login"]
+        }
+      }
+    },
+    {
+      "name": "List Uploaded Files",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "token",
+            "value": "{{client_token}}"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8000/client/files",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["client", "files"]
+        }
+      }
+    },
+    {
+      "name": "Ops Upload File",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "token",
+            "value": "{{ops_token}}"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "src": ""
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:8000/ops/upload-file",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["ops", "upload-file"]
+        }
+      }
+    }
+  ]
+}
