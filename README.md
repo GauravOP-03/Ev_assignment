@@ -173,7 +173,7 @@ Make sure MongoDB is running and your `.env` file is configured before running t
 
 ## 🌐 Live Demo
 
-🔗 [Click here to view the live project](https://ev-assignment.onrender.com)
+🔗 [Click here to view the live project](https://ev-assignment.onrender.com/docs)
 
 ---
 
