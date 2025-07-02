@@ -1,0 +1,45 @@
+# Byte-compiled / cache / Python stuff
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.pycache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.evAssignment/
+evAssignment/
+
+# Environment files
+.env
+.env.*
+
+# Git
+.git/
+.gitignore
+
+# OS / Editor-specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+.coverage
+pytest_cache/
+.tox/
+.nox/
+.mypy_cache/
+.pytype/
+.pyre/
+
+# Docker
+Dockerfile
+.dockerignore

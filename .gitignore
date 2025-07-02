@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+.evAssignment/
+evAssignment/  # your custom venv folder if used
+
+# VS Code, PyCharm, and IDE-specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+files
+
+# Logs and local databases
+*.log
+*.sqlite3
+
+# Environment variables
+.env
+.env.*
+
+# Test outputs
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+__snapshots__/
+
+# MyPy, Pylint, Bandit, etc.
+.mypy_cache/
+.pytype/
+.pyre/
+.bandit/
+
+

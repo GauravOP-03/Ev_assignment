@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+motor
+bcrypt
+python-jose[cryptography]
+aiosmtplib
+email-validator
+python-dotenv
+httpx
+pytest
+pytest-asyncio
+python-multipart
